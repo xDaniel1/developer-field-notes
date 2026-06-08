@@ -47,17 +47,15 @@
   </ul>
 </section>
 
-    <section id="do-not-commit">
-      <h2>Things I should not commit</h2>
-      <ul>
-        <li><code>.env</code> and <code>.env.local</code> — contain API keys and secrets</li>
-        <li><code>node_modules/</code> — large dependency folder, reproducible from package.json</li>
-        <li><code>.DS_Store</code> — macOS metadata file, not relevant to the project</li>
-        <li>Passwords, tokens, or any credentials — once pushed, consider them leaked</li>
-      </ul>
-      <p>Add these to <code>.gitignore</code> before your first commit.</p>
-    </section>
-  </main>
+    <section>
+  <h2>Do Not Commit</h2>
+  <ul>
+    <li>.env files</li>
+    <li>node_modules/</li>
+    <li>API keys or secrets</li>
+    <li>Passwords or credentials</li>
+  </ul>
+</section>
 
   <footer>
     <p>Your Name · github.com/yourusername</p>
