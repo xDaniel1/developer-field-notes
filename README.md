@@ -15,4 +15,7 @@ A personal reference site for Git commands, habits, and reminders built during b
 Staging is a separate step from committing. Git doesn't automatically include every changed file — you choose what goes into each snapshot.
 
 ## Git Practice Evidence
-_(add git log output here in Part 5)_
+
+## Git Practice Evidence
+
+### git log --oneline
