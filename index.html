@@ -30,18 +30,22 @@
     </section>
 
     <section id="commands">
-      <h2>Git command reference</h2>
-      <ul>
-        <li><code>git init</code> — initialize a new local repository</li>
-        <li><code>git status</code> — show the state of your working directory and staging area</li>
-        <li><code>git add &lt;file&gt;</code> — stage a file for the next commit</li>
-        <li><code>git commit -m "message"</code> — save a snapshot of staged changes</li>
-        <li><code>git log --oneline</code> — view commit history in a compact format</li>
-        <li><code>git push</code> — send local commits to the remote repository</li>
-        <li><code>git pull</code> — fetch and merge changes from the remote</li>
-        <li><code>git diff</code> — show unstaged changes line by line</li>
-      </ul>
-    </section>
+  <h2>Git command reference</h2>
+  <ul>
+    <li><code>git init</code> — initialize a new local repository</li>
+    <li><code>git status</code> — show the state of your working directory and staging area</li>
+    <li><code>git add &lt;file&gt;</code> — stage a specific file</li>
+    <li><code>git add .</code> — stage all changed files at once</li>
+    <li><code>git commit -m "message"</code> — save a snapshot of staged changes</li>
+    <li><code>git log --oneline</code> — view commit history in compact format</li>
+    <li><code>git diff</code> — show unstaged changes line by line</li>
+    <li><code>git push</code> — send local commits to the remote repository</li>
+    <li><code>git pull</code> — fetch and merge changes from the remote</li>
+    <li><code>git checkout -b &lt;name&gt;</code> — create and switch to a new branch</li>
+    <li><code>git checkout &lt;name&gt;</code> — switch to an existing branch</li>
+    <li><code>git remote -v</code> — list connected remote repositories</li>
+  </ul>
+</section>
 
     <section id="do-not-commit">
       <h2>Things I should not commit</h2>
